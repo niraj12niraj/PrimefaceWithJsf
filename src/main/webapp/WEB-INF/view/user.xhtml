@@ -1,0 +1,33 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:ui="http://java.sun.com/jsf/facelets"
+		xmlns:h="http://java.sun.com/jsf/html"
+		xmlns:f="http://java.sun.com/jsf/core"
+		xmlns:p="http://primefaces.org/ui">
+	<h:head>
+		<script name="jquery/jquery.js" library="primefaces"></script>
+		<title>Register Employee</title>
+	</h:head>
+	<h:form>
+	<p:outputLabel value="User Name"/>
+	<p:inputText value="#{userBean.user.name}"/>
+	
+	<p:outputLabel value="Mobile"/>
+	<p:inputText value="#{userBean.user.number}"/>
+	
+	<p:outputLabel value="Email"/>
+	<p:inputText value="#{userBean.user.email}"/>
+	
+	<p:outputLabel value="Password"/>
+	<p:inputText value="#{userBean.user.password}"/>
+	
+	<p:outputLabel value="Address"/>
+	<p:inputText value="#{userBean.user.address}"/>
+	
+	<p:outputLabel value="DOB"/>
+	<p:inputText value="#{userBean.user.dob}"/>
+	
+	<p:commandButton value="Register" action="#{userBean.registration}"/>
+	
+	
+	</h:form>
+	</html>

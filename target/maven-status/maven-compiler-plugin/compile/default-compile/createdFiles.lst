@@ -1,0 +1,7 @@
+com\user\service\UserService.class
+com\user\dao\UserDAOImpl.class
+com\user\dao\UserDAO.class
+com\user\service\UserServiceImpl.class
+com\user\bean\UserRegister.class
+com\user\entity\User.class
+com\login\bean\LoginBean.class
